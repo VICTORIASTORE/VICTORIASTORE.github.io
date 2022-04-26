@@ -1,0 +1,183 @@
+body{
+     background: #FEF0F1;
+    
+}
+
+h1{
+   font-size: 25px;
+   font-style: Arial Narrow;
+   text-align: center;
+   color: #000000;
+}
+
+p{ 
+  font-size: 15px;
+  font-style: Arial Narrow;
+  text-align: center;
+  color: #000000;
+} 
+
+table{
+      border-style: dotted;
+	  border-color: white; 
+	  border: 5;
+      width: 90%; 
+      height: 60%;
+}
+
+td{
+   background-color: #FDDDDE;
+   text-align: center;
+    
+}
+
+/*CODIGO PARA TABLA TRASPARENTE*/
+.dead{
+
+     border-style: transparent;
+     border: 0;
+     background-color: transparent; 
+}
+
+/*TAMAÑO DE IMAGENES*/
+.omg{
+	 width: 300px;
+	 height: 250px;
+}
+
+/*TABLA DE CONTACTO*/
+.jjfg{
+	 border: 5px dotted white;
+     background-color: transparent;
+     width: 15%;
+     height: 15%;
+}
+
+/*TEXTO DE HISTORIA*/
+.hi{
+   font-size: 21px;
+   font-style: Muthiara-demo-version;
+   text-align: center;
+   color: #000000;
+}
+
+.div1{
+     background: url("fd.png"); 
+	 border: 5px dotted white; 
+	 border-radius: 20px;
+	 margin: auto;
+	 width: 80%;
+	 height: 28%;
+         
+}
+
+.div2{
+      background: url("color.png");
+	  border: 5px dotted pink; 
+	  border-radius: 20px;
+	  margin: auto;
+	  width: 80%;
+	  height: 17%;
+}
+
+.div3{
+	  background: url("fd.png"); 
+	  border: 5px dotted white; 
+      border-radius: 20px;
+	  margin: auto;
+      width: 80%;
+	  height: 13%;
+}
+
+.div4{
+      background: url("fd.png");
+	  border: 5px dotted white;
+	  border-radius: 20px;
+	  margin: auto;
+	  width: 80%;
+	  height: 34%;
+}
+
+.div5{
+      background: url("fon.png"); 
+      border: 5px dotted pink; 
+	  border-radius: 20px;
+	  margin: auto;    
+}
+
+/*CAJAS DE PRODUCTOS*/
+.cajita{
+      height: 300px;
+      width: 250px;
+      border: 5px dotted white;
+      background: white;
+      margin: 5px;
+      color: black;
+      text-align: center;
+      font-family: "better", sans-serif;
+      display: inline-block;
+} 
+
+.cajita:hover{
+            /*COLOCAR SOMBRA AL DIV*/
+            /* X Y RADIO COLOR*/    
+            box-shadow: 0 0 10px pink;
+            /*CAMBIA EL TAMAÑO DE ESCALA DEL DIV*/
+            transform: scale(1.3);
+}
+
+.caji-texto{
+            padding-bottom: 5px;
+            padding-top: 2px;
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+}
+
+/*MOVIMIENTO DE LOS ICONOS*/
+.caja{
+      height: 300px;
+      width: 250px;
+      border: 0px dotted white;
+      background: transparent;
+      margin: 5px;
+      color: black;
+      text-align: center;
+      font-family: "better", sans-serif;
+      display: inline-block;
+} 
+
+.caja:hover{
+            /*COLOCAR SOMBRA AL DIV*/
+            /* X Y RADIO COLOR*/    
+            box-shadow: 0 0 0px transparent;
+            /*CAMBIA EL TAMAÑO DE ESCALA DEL DIV*/
+            transform: scale(1.2);
+}
+
+.texto-adicional{
+                 padding-top: 15px;
+                 font-size: 15px;
+}
+
+/*FUENTES DE LETRAS*/
+@font-face{
+           font-family: "dia";
+		   src: url(CHERRY_LIME.ttf);
+           
+}
+
+#fuente-CHERRY{
+                font-family: "dia";
+                font-size: 50px;
+}
+
+#fuenti-CHERRY{
+                font-family: "dia";
+                font-size: 25px;
+}
+
+#fuente-google{
+               font-family: 'Rock 3D', cursive;
+               font-size: 15px;
+} 
